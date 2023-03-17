@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'myFirstFont';
+    src: url('HankenGrotesk-VariableFont_wght.ttf');
+}
+
+body {
+    font-family: "myFirstFont";
+    text-align: center;
+}
+
+h1 {
+    font-family: "myFirstFont";
+
+}
+
+.circle-76 {
+    color: white;
+    font-size: 64px ;
+    padding: 30px 0px 0;
+    margin: 0;
+}
+
+.circle-of-100 {
+    color: grey;
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+.cont-button { 
+    
+    background-image: linear-gradient(hsl(224, 30%, 27%),hsl(224, 30%, 27%));
+    border-radius: 5rem 5rem 5rem 5rem;
+    display: inline-block;
+    font-size: 24px;
+    padding: 10px 75px;
+    text-decoration: none;
+    transform: translate(0, 0);
+}
+
+a:hover {
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
+
+
+.purpleBox {
+    border-radius: 5%;
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    display: inline;
+    width: 325px;
+    height: 425px;
+    float: left;
+}
+
+.inner-purple-circle {
+    width: 25%;
+    border-radius: 50%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    margin: auto;
+    padding: 1px 52px;
+}
+
+.whiteBox {
+    border-radius: 5%;
+    display: inline-block;
+    width: 325px;
+    height: 425px;
+    margin-bottom: 0;
+    padding-left: 15px;
+}
+
+.outerFrame {
+    border-radius: 5%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+
+.reaction {
+    display: block;
+    padding: 0 5px;
+}
+
+.memory {
+    display: block;
+    padding: 0 5px;
+}
+
+.verbal {
+    display: block;
+    padding: 0 5px;
+}
+
+.visual {
+    display: block;
+    padding: 0 5px;
+}
+
+.score-class {
+    display: inline-block;
+    margin-right: 0;
+    width: 35%;
+    text-align: left;
+    padding-left: 8px;
+    padding-bottom: 2px;
+}
+
+.score-value {
+    display: inline-block;
+    text-align: right;
+    margin-left: 0;
+    width: 20%;
+    text-align: right;
+}
+
+.summary-text {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.reaction-text {
+    color: hsl(0, 100%, 67%);
+}
+
+.memory-text {
+    color: hsl(39, 100%, 56%);
+}
+
+.verbal-text {
+    color: hsl(166, 100%, 37%);
+}
+
+.visual-text {
+    color: hsl(234, 85%, 45%);
+}
+
+.gray-text {
+    display: inline;
+    color: gray;
+}
+
+.wght-700 {
+    font-weight: 700;
+}
+
+.white-text {
+    color: hsla(0, 0%, 80%);
+}
+
+.text-in-purple {
+    width: 225px;
+    margin: auto;
+}
