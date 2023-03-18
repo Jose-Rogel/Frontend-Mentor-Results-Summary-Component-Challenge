@@ -1,10 +1,11 @@
-# Frontend Mentor - QR code component solution
+# Frontend Mentor - Results summary component solution
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Results summary component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
 - [Overview](#overview)
+  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -17,14 +18,20 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Overview
 
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
+
 ### Screenshot
 
-![](./images/solution.png)
+![](/assets/images/solution.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://jose-rogel.github.io/Frontend-Mentor-QR-Code-Challenge/)
-
+- Live Site URL: (https://jose-rogel.github.io/Frontend-Mentor-Results-Summary-Component-Challenge/)
 
 ## My process
 
@@ -33,21 +40,39 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Semantic HTML5 markup
 - CSS custom properties
 
+
 ### What I learned
 
-One of the things that I learned during this project was the transform property that I used to get the outer white frame to center vertically. 
-The CSS wasn't super impressive as it mainly consisted of font properties and margins. 
+Some of the things that I learned during this project are as follows:
+
+```css
+.implementation-of-fonts {
+   font-family: 'myFirstFont';
+    src: url('HankenGrotesk-VariableFont_wght.ttf'); /*This is the first time that I've used variable fonts in a site page*/
+}
+```
+
+```css
+.use-of-gradients {
+  background-image: linear-gradient(hsl(224, 30%, 27%),hsl(224, 30%, 27%)); /*Starting to understand how to use linear gradients. Just need to implement them with angles*/
+}
+
+```
+
 
 ### Continued development
 
-The area that I hope to develop through these challenges are my JavaScript skills. I've just started learning Frontend Development, and I'm looking for a way to apply
-the small amount of JS that I've learned.
+Something that I used from a site was the display table property. I would like to learn more about when it is a good idea to use this property. Another property tht I hope to learn more about is the linear-gradient property. I have yet to implement this property with an angle.
 
 ### Useful resources
 
-- [Example resource 1](https://developer.mozilla.org/en-US/docs/Web/CSS/transform) - This helped me with the trasnform property. It has a cool visual that users can change to see the effect.
+- [Stack Overflow](https://stackoverflow.com/questions/12645366/css-responsive-center-div) - This helped me with centering the main div. I ended up going with the auto margins + display table option.
+- [Unused CSS](https://unused-css.com/blog/css-half-circle/) - This site really helped when it came to getting those half circles on the sides (I kept getting an oval on my own).
+x
 
 ## Author
 
-- Website - [Jose R]
+- Website - [Jose R] (https://github.com/Jose-Rogel)
 - Frontend Mentor - [@Jose-Rogel](https://www.frontendmentor.io/profile/Jose-Rogel)
+
+
